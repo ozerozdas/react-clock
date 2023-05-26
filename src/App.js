@@ -13,7 +13,7 @@ class App extends Component {
   componentDidMount(){
     setInterval(() => {
       this.setClock();
-    }, 1000);
+    }, 1000); // Change time every 1 second
   }
 
   setClock = () => {
